@@ -1,4 +1,14 @@
-data
-.venv
-.venv312
+data/
+.venv/
+.venv312/
 .env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded ML weights and rendered media
+*.pt
+*.onnx
+*.mp4
+*.webm
+*.wav
